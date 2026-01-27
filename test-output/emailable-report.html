@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">MySuite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">11</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">3</td><td class="num">9,175</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">MySuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.neotech.lesson02.AssertDemo</td><td><a href="#m0">logoValidation</a></td><td rowspan="1">1769484400414</td><td rowspan="1">21</td></tr><tr class="failedodd"><td rowspan="1">com.neotech.lesson02.DependsDemo</td><td><a href="#m1">thirdMethod</a></td><td rowspan="1">1769484402036</td><td rowspan="1">1</td></tr><tr class="failedeven"><td rowspan="1">com.neotech.lesson02.SoftAssertDemo</td><td><a href="#m2">logoAndLoginValidation</a></td><td rowspan="1">1769484396505</td><td rowspan="1">2472</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.neotech.lesson02.DependsDemo</td><td><a href="#m3">fourthMethod</a></td><td rowspan="1">1769484402038</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.neotech.lesson02.AssertDemo</td><td><a href="#m4">titleValidation</a></td><td rowspan="1">1769484401924</td><td rowspan="1">7</td></tr><tr class="passedodd"><td rowspan="2">com.neotech.lesson02.DependsDemo</td><td><a href="#m5">firstMethod</a></td><td rowspan="1">1769484402034</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m6">secondMethod</a></td><td rowspan="1">1769484402035</td><td rowspan="1">0</td></tr><tr class="passedeven"><td rowspan="3">com.neotech.lesson02.EnableAndDisable</td><td><a href="#m7">firstMethod</a></td><td rowspan="1">1769484392897</td><td rowspan="1">7</td></tr><tr class="passedeven"><td><a href="#m8">fourthMethod</a></td><td rowspan="1">1769484392910</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m9">secondMethod</a></td><td rowspan="1">1769484392908</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="1">com.neotech.lesson02.Homework</td><td><a href="#m10">errormsgPasswordEmpty</a></td><td rowspan="1">1769484394807</td><td rowspan="1">164</td></tr><tr class="passedeven"><td rowspan="4">com.neotech.lesson02.PriorityDemo</td><td><a href="#m11">firstMethod</a></td><td rowspan="1">1769484402040</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m12">fourthMethod</a></td><td rowspan="1">1769484402042</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m13">secondMethod</a></td><td rowspan="1">1769484402041</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m14">thirdMethod</a></td><td rowspan="1">1769484402039</td><td rowspan="1">1</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.neotech.lesson02.AssertDemo#logoValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Logo is NOT displayed expected [true] but found [false]
+	at com.neotech.lesson02.AssertDemo.logoValidation(AssertDemo.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.neotech.lesson02.DependsDemo#thirdMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Exception
+	at com.neotech.lesson02.DependsDemo.thirdMethod(DependsDemo.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.neotech.lesson02.SoftAssertDemo#logoAndLoginValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	Account name is not Jacqueline Whit expected [Jacqueline Whit] but found [Jacqueline White]
+	at com.neotech.lesson02.SoftAssertDemo.logoAndLoginValidation(SoftAssertDemo.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.neotech.lesson02.DependsDemo#fourthMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.neotech.lesson02.DependsDemo.fourthMethod() on instance com.neotech.lesson02.DependsDemo@26794848 depends on not successfully finished methods 
+[com.neotech.lesson02.DependsDemo.thirdMethod() on instance com.neotech.lesson02.DependsDemo@26794848]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.neotech.lesson02.AssertDemo#titleValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.neotech.lesson02.DependsDemo#firstMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.neotech.lesson02.DependsDemo#secondMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.neotech.lesson02.EnableAndDisable#firstMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.neotech.lesson02.EnableAndDisable#fourthMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.neotech.lesson02.EnableAndDisable#secondMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.neotech.lesson02.Homework#errormsgPasswordEmpty</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.neotech.lesson02.PriorityDemo#firstMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.neotech.lesson02.PriorityDemo#fourthMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.neotech.lesson02.PriorityDemo#secondMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.neotech.lesson02.PriorityDemo#thirdMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
