@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.neotech.lesson04.Homework1">
+      <class name="com.neotech.review01.ListenerDemo">
         <methods>
-          <include name="addEmployee" invocation-numbers="2"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="test2"/>
+          <include name="after"/>
+          <include name="before"/>
         </methods>
-      </class> <!-- com.neotech.lesson04.Homework1 -->
+      </class> <!-- com.neotech.review01.ListenerDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

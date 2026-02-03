@@ -1,150 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-03T01:05:21 EST" name="Default suite" finished-at="2026-02-03T01:07:20 EST" duration-ms="119382">
+  <suite started-at="2026-02-03T17:05:30 EST" name="ListenerDemoSuite" finished-at="2026-02-03T17:05:30 EST" duration-ms="47">
     <groups>
-      <group name="homework">
-        <method signature="Homework1.addEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.neotech.lesson04.Homework1@662ac478]" name="addEmployee" class="com.neotech.lesson04.Homework1"/>
-      </group> <!-- homework -->
-      <group name="smoke">
-        <method signature="Homework1.addEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.neotech.lesson04.Homework1@662ac478]" name="addEmployee" class="com.neotech.lesson04.Homework1"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-02-03T01:05:21 EST" name="Default test" finished-at="2026-02-03T01:07:20 EST" duration-ms="119382">
-      <class name="com.neotech.lesson04.Homework1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.neotech.lesson04.Homework1@662ac478]" started-at="2026-02-03T01:05:21 EST" name="setUp" finished-at="2026-02-03T01:05:23 EST" duration-ms="1656" status="PASS">
+    <test started-at="2026-02-03T17:05:30 EST" name="ListenerDemoTest" finished-at="2026-02-03T17:05:30 EST" duration-ms="47">
+      <class name="com.neotech.review01.ListenerDemo">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.neotech.review01.ListenerDemo@397fbdb]" started-at="2026-02-03T17:05:30 EST" name="before" finished-at="2026-02-03T17:05:30 EST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="addEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.neotech.lesson04.Homework1@662ac478]" started-at="2026-02-03T01:05:23 EST" name="addEmployee" data-provider="excelData" finished-at="2026-02-03T01:05:51 EST" duration-ms="27669" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[John]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Smith]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Chinese Development Center]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[johnWick200029]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Secret@123!!]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- before -->
+        <test-method signature="test1()[pri:0, instance:com.neotech.review01.ListenerDemo@397fbdb]" started-at="2026-02-03T17:05:30 EST" name="test1" finished-at="2026-02-03T17:05:30 EST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addEmployee -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.neotech.lesson04.Homework1@662ac478]" started-at="2026-02-03T01:05:51 EST" name="tearDown" finished-at="2026-02-03T01:05:51 EST" duration-ms="147" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.neotech.review01.ListenerDemo@397fbdb]" started-at="2026-02-03T17:05:30 EST" name="after" finished-at="2026-02-03T17:05:30 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.neotech.lesson04.Homework1@662ac478]" started-at="2026-02-03T01:05:51 EST" name="setUp" finished-at="2026-02-03T01:05:52 EST" duration-ms="1403" status="PASS">
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.neotech.review01.ListenerDemo@397fbdb]" started-at="2026-02-03T17:05:30 EST" name="before" finished-at="2026-02-03T17:05:30 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="addEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.neotech.lesson04.Homework1@662ac478]" started-at="2026-02-03T01:05:52 EST" name="addEmployee" data-provider="excelData" finished-at="2026-02-03T01:06:32 EST" duration-ms="39546" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mary]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Ann]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[German Regional HQ]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[mary200029]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Secret@123!!]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addEmployee -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.neotech.lesson04.Homework1@662ac478]" started-at="2026-02-03T01:06:32 EST" name="tearDown" finished-at="2026-02-03T01:06:32 EST" duration-ms="159" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.neotech.lesson04.Homework1@662ac478]" started-at="2026-02-03T01:06:32 EST" name="setUp" finished-at="2026-02-03T01:06:33 EST" duration-ms="1578" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="addEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.neotech.lesson04.Homework1@662ac478]" started-at="2026-02-03T01:06:33 EST" name="addEmployee" data-provider="excelData" finished-at="2026-02-03T01:07:20 EST" duration-ms="46595" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[David]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Brown]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Indian Development Center]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[david2000029]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Secret@123!!]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
+        </test-method> <!-- before -->
+        <test-method signature="test2()[pri:0, instance:com.neotech.review01.ListenerDemo@397fbdb]" started-at="2026-02-03T17:05:30 EST" name="test2" finished-at="2026-02-03T17:05:30 EST" duration-ms="5" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element found by By.id: personal_details_tab, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#personal_details_tab"}.
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\Users\erbli\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58386}, goog:processID: 14676, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58386/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c12174b152fe90ced416af31b7125a90]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.id: personal_details_tab, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#personal_details_tab"}.
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\Users\erbli\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58386}, goog:processID: 14676, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58386/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c12174b152fe90ced416af31b7125a90
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-at com.neotech.utils.CommonMethods.waitForVisibility(CommonMethods.java:221)
-at com.neotech.lesson04.Homework1.addEmployee(Homework1.java:45)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.neotech.review01.ListenerDemo.test2(ListenerDemo.java:31)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -173,15 +63,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addEmployee -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.neotech.lesson04.Homework1@662ac478]" started-at="2026-02-03T01:07:20 EST" name="tearDown" finished-at="2026-02-03T01:07:20 EST" duration-ms="121" status="PASS">
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.neotech.review01.ListenerDemo@397fbdb]" started-at="2026-02-03T17:05:30 EST" name="after" finished-at="2026-02-03T17:05:30 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.neotech.lesson04.Homework1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- after -->
+      </class> <!-- com.neotech.review01.ListenerDemo -->
+    </test> <!-- ListenerDemoTest -->
+  </suite> <!-- ListenerDemoSuite -->
 </testng-results>
