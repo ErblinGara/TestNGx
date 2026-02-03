@@ -11,16 +11,7 @@ import com.neotech.utils.ConfigsReader;
 
 public class TitleAndLogoValidation extends CommonMethods {
 
-	@BeforeMethod
-	public void openAndNavigate() {
-		setUp();
-	}
-
-	@AfterMethod
-	public void quitBrowser() {
-		tearDown();
-	}
-
+	
 	@Test
 	public void titleValidation() {
 		String expectedTitle = "OrangeHRM";
@@ -34,7 +25,7 @@ public class TitleAndLogoValidation extends CommonMethods {
 		}
 	}
 	
-	@Test
+	@Test (groups = "smoke")
 	public void logoValidation() {
 		WebElement logo = driver.findElement(By.xpath("//div[@class='orangehrm-logo']/img"));
 		

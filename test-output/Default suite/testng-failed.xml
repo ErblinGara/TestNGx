@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.neotech.lesson02.SoftAssertDemo">
+      <class name="com.neotech.review01.SoftAndHardAssert">
         <methods>
-          <include name="logoAndLoginValidation"/>
-          <include name="quitBrowser"/>
-          <include name="openAndNavigate"/>
+          <include name="HardAssertTest"/>
         </methods>
-      </class> <!-- com.neotech.lesson02.SoftAssertDemo -->
+      </class> <!-- com.neotech.review01.SoftAndHardAssert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
